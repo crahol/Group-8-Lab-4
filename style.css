@@ -1,13 +1,15 @@
 
 body{
 color:#41B3A3;
-
+font-family:Verdana,sans-serif;
+font-size:18px;
 }
 
 h1{
 color:#E27D60;
 border: 2px;
-
+font-size:36px;
+text-align:center;
 
 }
 
