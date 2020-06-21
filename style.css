@@ -1,26 +1,44 @@
-
-body{
-color:#41B3A3;
-font-family:Verdana,sans-serif;
-font-size:18px;
+body {
+    color:#118878;
+    font-family:Verdana,sans-serif;
+    font-size:18px;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
 }
 
-h1{
-color:#E27D60;
-border: 2px;
-font-size:36px;
-text-align:center;
+h1 {
+    color:#E27D60;
+    border: 2px;
+    font-size:36px;
+    text-align:center;
+}
 
+tr:hover {
+    background-color: lightcyan;
+}
+
+th {
+    font-weight: bold;
+}
+
+td {
+    font-weight: lighter;
+}
+
+td, th {
+    padding: 5px;
 }
 
 p{
 color:#E8A87C;
 }
 
-#delete-btn{
-color:red;
-font-size:36px;
-font-weight:bold;
-cursor:pointer;
+#delete-btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
 
+#error {
+    color: red;
 }
