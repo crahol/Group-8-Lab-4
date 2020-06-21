@@ -13,11 +13,14 @@ text-align:center;
 
 }
 
-ul{
-color:#85DCB;
-
-}
-
 p{
 color:#E8A87C;
+}
+
+#delete-btn{
+color:red;
+font-size:36px;
+font-weight:bold;
+cursor:pointer;
+
 }
